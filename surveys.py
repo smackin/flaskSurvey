@@ -25,7 +25,7 @@ class Survey:
 
 satisfaction_survey = Survey(
     "Customer Satisfaction Survey",
-    "Please fill out a survey about your experience with us.",
+    "Thank you for shopping with us.  We'd love to hear about your experience,  please fill out a survey to let us know how we are doing! ",
     [
         Question("Have you shopped here before?"),
         Question("Did someone else shop with you today?"),
