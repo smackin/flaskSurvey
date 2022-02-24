@@ -37,6 +37,7 @@ def display_questions(qid):
         return redirect('/completed')
     
     if (len(responses) != qid):
+        flash(f" This is not a valid page... qid = {qid}.")
         return redirect(f"/questions/{len(responses)}")
         
     question = survey.questions[qid]
